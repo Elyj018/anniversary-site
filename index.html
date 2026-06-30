@@ -678,5 +678,12 @@ function updateCounter(){
 updateCounter();
 setInterval(updateCounter, 1000);
 </script>
+  <audio id="myAudio" loop>
+  <source src="allieverneed.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="document.getElementById('myAudio').play()" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+  Play Music 🎵
+</button>
 </body>
 </html>
